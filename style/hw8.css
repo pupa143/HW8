@@ -1,3 +1,4 @@
+/*TASK 1*/
 .text-box h3:first-of-type {
   color: pink;
 }
@@ -14,6 +15,7 @@
   color: yellow;
 }
 
+/*TASK 2*/
 .container {
   display: flex;
   padding: 20px;
@@ -53,3 +55,4 @@
 .day li:nth-child(odd) { text-decoration: underline; }
 .day li:nth-child(3) { color: blue; }
 .day li:not(:last-child) { border-bottom: 1px dashed gray; }
+.day li:nth-child(2) {font-size: 25px;}
